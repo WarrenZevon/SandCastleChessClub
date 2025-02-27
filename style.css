@@ -100,7 +100,8 @@ section ul {
 .calendar-table td {
     padding: 0.75rem;
     text-align: left;
-    border-bottom: 1px solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    width: 33%;
 }
 
 .calendar-table th {
