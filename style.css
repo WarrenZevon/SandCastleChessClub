@@ -102,6 +102,7 @@ section ul {
     text-align: left;
     border: 1px solid var(--secondary-color);
     width: 33%;
+    padding-right: 1rem;
 }
 
 .calendar-table th {

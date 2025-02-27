@@ -8,7 +8,7 @@ async function fetchUpcomingDates() {
         rows.shift();
         
         // Sort by date
-        rows.sort((a, b) => new Date(a[0]) - new Date(b[0]));
+        rows.sort((a, b) => new Date(b[0]) - new Date(a[0]));
         
         // Create table HTML
         const tableBody = document.getElementById('upcoming-dates-body');
