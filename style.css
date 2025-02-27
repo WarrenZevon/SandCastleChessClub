@@ -46,6 +46,14 @@ header {
 nav ul {
     list-style: none;
     padding: 1rem 0;
+#upcoming-dates {
+    overflow-x: auto;
+}
+
+.calendar-table {
+    width: 100%;
+    min-width: 600px;
+}
 }
 
 nav ul li {
