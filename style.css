@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #4a90e2;
-    --secondary-color: #f39c12;
-    --accent-color: #2ecc71;
-    --text-color: #444;
-    --light-bg: #f8f9fa;
+    --primary-color: #000000;
+    --secondary-color: #d2b48c;
+    --accent-color: #8b7355;
+    --text-color: #333333;
+    --light-bg: #f5e6d3;
 }
 
 * {
@@ -43,7 +43,15 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+.slogan {
+    font-style: italic;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 main {
@@ -57,6 +65,7 @@ section {
     padding: 2rem;
     background-color: var(--light-bg);
     border-radius: 8px;
+    border: 2px solid var(--secondary-color);
 }
 
 h1 {
